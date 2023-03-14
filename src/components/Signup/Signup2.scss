@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+.signUp2{
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  z-index: 3;
+
+  h3{
+    position: absolute;
+    top: 20%;
+    font-family: 'Figtree', sans-serif;
+  }
+
+  .signUp2Info{
+    width: 70%;
+    position: absolute;
+    top: 27%;
+
+    h6{
+      color: #c8c8c8;
+      top: 25%;
+      font-family: 'Figtree', sans-serif;
+    }
+
+    .datePicker{
+      border-width: 0 0 1px 0;
+      border-color: #c8c8c8;
+      padding: 0;
+      width: 100%;
+      font-family: 'Figtree', sans-serif;
+      font-weight: 600;
+      margin-top: 10%;
+      outline: none;
+    }
+  }
+  
+  .signUp2Button{
+    color: white;
+    font-weight: 600;
+    font-family: 'Figtree', sans-serif;
+    position: absolute;
+    bottom: 4%;
+    text-transform: capitalize;
+    font-size: 13px;
+    width: 55%;
+    border-radius: 50px;
+  }
+}

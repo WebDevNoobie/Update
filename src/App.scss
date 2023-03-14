@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+}
+
+.App{
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  z-index: 0;
+
+  .appContainer{
+    width: 280px;
+    height: 610px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-shadow: 0 20px 100px rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+    .phoneBody{
+      width: 320px;
+      object-fit: contain;
+      position: absolute;
+      z-index: 5;
+      pointer-events: none;
+    }
+
+    p{
+      z-index: 2;
+      color: grey;
+      position: absolute;
+    }
+
+    .noUserApp{
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      position: absolute;
+    }
+
+    .userApp{
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      position: absolute;
+    }
+  }
+}

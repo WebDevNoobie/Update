@@ -1,0 +1,23 @@
+.firstScreen{
+  width: 100%;
+  height: 100%;
+  background-color: #fffc00;
+  display: flex;
+  justify-content: center;
+  position: relative;
+
+  .logo{
+    position: absolute;
+    width: 50%;
+    object-fit: contain;
+    top: 20%;
+  }
+
+  .buttons{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    bottom: 0;
+    width: 102%;
+  }
+}
